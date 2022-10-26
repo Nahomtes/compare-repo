@@ -5,7 +5,7 @@ import config from './config';
 const client = new ApolloClient({
   uri: config.urlApi,
   cache: new InMemoryCache({ possibleTypes }),
-  headers: { 'MTP-Platform': true },
+  headers: { 'OT-Platform': true },
 });
 
 export default client;

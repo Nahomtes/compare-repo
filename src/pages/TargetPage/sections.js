@@ -1,6 +1,3 @@
-// MTP Section imports
-import * as OpenPedCanSomaticAlterations from '../../sections/target/OpenPedCanSomaticAlterations';
-import * as OpenPedCanGeneExpression from '../../sections/target/OpenPedCanGeneExpression';
 // Section imports
 import * as BaselineExpression from '../../sections/target/Expression';
 import * as Bibliography from '../../sections/target/Bibliography';
@@ -21,8 +18,6 @@ import * as GeneticConstraint from '../../sections/target/GeneticConstraint';
 import config from '../../config';
 
 const sections = [
-  OpenPedCanSomaticAlterations,
-  OpenPedCanGeneExpression,
   KnownDrugs,
   Tractability,
   Safety,

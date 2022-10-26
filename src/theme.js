@@ -76,11 +76,6 @@ const theme = {
         display: 'none',
       },
     },
-    Mui: {
-      disabled: {
-        color: 'black !important',
-      },
-    },
     MuiTab: {
       root: {
         textTransform: 'none',
@@ -91,12 +86,6 @@ const theme = {
           '&:hover': { backgroundColor: PRIMARY },
         },
         '&:hover': { backgroundColor: lighten(0.3, PRIMARY) },
-      },
-      textColorInherit: {
-        color: 'rgb(52, 137, 202)',
-        '&.Mui-disabled': {
-          color: '#9e9e9e !important',
-        },
       },
     },
     MuiTypography: {
@@ -136,20 +125,6 @@ const theme = {
         height: '1px',
       },
     },
-  },
-  Drawer: {
-    paper: {
-      marginTop: '230px', // NCILinkBar(23px), NCILogoBar(100px), NCINavBar(59px), and NavBar(48px)
-      height: 'calc(100% - 230px)',
-    },
-  },
-  zIndex: {
-    navBar: 1002,
-    navPanel: 1001,
-  },
-  header: {
-    height: '182px', // // NCILinkBar(23px), NCILogoBar(100px), and NCINavBar(59px)
-    spacing: '52px', // spacing below the header
   },
 };
 
