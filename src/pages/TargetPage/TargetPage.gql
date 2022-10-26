@@ -3,7 +3,6 @@ query TargetPageQuery($ensgId: String!) {
     id
     approvedSymbol
     approvedName
-    pmtl_fda_designation
     proteinIds{
       id
       source

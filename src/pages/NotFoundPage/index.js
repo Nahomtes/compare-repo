@@ -1,1 +1,1 @@
-export { default } from './MTPNotFoundPage';
+export { default } from './NotFoundPage';
